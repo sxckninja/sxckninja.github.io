@@ -1,0 +1,478 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .img{ 
+    max-width: 100%;        
+    height: auto;         
+    object-fit: contain;
+  }
+  
+  .imgsiege{  
+    width: 70%; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    border:ridge 20px rgb(88, 87, 87, 0.5)
+  }
+
+  .imgzelda{  
+    width: 70%; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    border:ridge 20px rgb(13, 79, 13)
+  }
+
+  .imgfort{  
+    width: 70%; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    border:ridge 20px rgb(19, 41, 169)
+  }
+
+  .imgmine{  
+    width: 70%; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    border:ridge 20px rgb(13, 79, 13)
+  }
+
+
+  .imgred{  
+    width: 70%; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    border:ridge 20px rgb(102, 0, 0)
+  }
+
+
+  .centervideo{ 
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  body {
+    font-family: OCR A Std, monospace;
+    background-color: #000000;
+  }
+
+  .homebackground {
+    background: url("https://th.bing.com/th/id/R.08d6ee17dae66c345bfdb608b620cbc3?rik=VVUaB0%2bfOKuCqw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fhUukl3e.jpg&ehk=YRfjpqCrlgojYQAWsoPUNyNdFEJa3UQ8E%2bHlxvv9%2b6E%3d&risl=&pid=ImgRaw&r=0") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: overlay;
+
+  }
+
+  .fortbackground {
+    background: url("https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/12/18121024/fortnite-loading-screen-battle-royale.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+  }
+
+  .minebackground {
+    background: url("https://wallpaperaccess.com/full/6712882.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+  }
+
+  .redbackground {
+    background: url("https://images.wallpapersden.com/image/download/red-dead-redemption-2-legend-of-the-west_bW5rbWaUmZqaraWkpJRmbmdlrWZlbWU.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: overlay;
+  }
+
+  .zeldabackground {
+    background: url("https://cdn.wallpapersafari.com/73/40/u4rW8T.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: overlay;
+  }
+
+  .siegebackground {
+    background: url("https://images.hdqwalls.com/wallpapers/tom-clancys-rainbow-six-siege-2019-4k-58.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: overlay;
+  }
+  
+  
+  header {
+    width: 960px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+
+  
+  ul {
+    
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  ul li {
+   
+    padding: 6px;
+    border: solid 3px white;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  ul li:hover {
+    transform: scale(1.1); 
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  section {
+    padding: 5px;
+    margin: 5px;
+    border: double 4px black;
+    margin: 0 auto;
+  }
+  
+  section article {
+    border: 3px solid black;
+    border-radius: 0px 20px 20px 20px;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    background: white;
+  }
+  
+  footer {
+    background: #33e3cc;
+    border-radius: 30px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  footer h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 90%;
+  }
+  
+  .wrapper {
+    margin: 0 auto 0 auto;
+    width: 960px;
+    display: block;
+  }
+  
+  .pixelify-sans-pixel {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+   table {
+     width: 700px;
+     height: 400px;
+     border: 3px solid #e5fbf7;
+     color: white;
+     margin-bottom: 20px;
+  }
+
+  td, th {
+    border: 3px solid white; 
+    font-family: "Pixelify Sans", serif;
+    
+  }
+  .center-table {
+    margin: 0 auto;
+     background-color: rgba(113, 113, 113, 0.5);
+  }
+  
+  h3{
+  margin-top:20px
+  }
+
+  .selected { 
+    background-color: white;
+    }
+
+    .selected a { 
+      color: rgba(22, 217, 184);
+      }
+
+  .selectedfort{ 
+      background-color: white;
+      }
+
+    .selectedfort a { 
+        color: rgba(19, 41, 169);
+        }
+
+  .selectedmine{ 
+          background-color: white;
+          }
+      
+    
+    .selectedmine a { 
+    color: rgba(10, 151, 34);
+    }
+
+    .selectedred{ 
+      background-color: white;
+      }
+  
+
+    .selectedred a { 
+    color: rgba(228, 37, 16);
+    }
+
+    .selectedzelda{ 
+      background-color: white;
+      }
+  
+
+    .selectedzelda a { 
+    color: rgba(54, 225, 54);
+    }
+
+    .selectedsiege{ 
+      background-color: white;
+      }
+  
+
+    .selectedsiege a { 
+    color: rgba(88, 87, 87);
+    }
+
+    .navfort{
+      background-color: rgba(22, 54, 234, 0.4);
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 30px;
+    }
+
+    .navhome{
+      background-color: rgba(22, 217, 184, 0.9);
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 30px;
+    }
+
+    .navmine{
+      background-color: rgba(22, 217, 54, 0.4);
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 30px;
+    }
+
+    .navred{
+      background-color: rgba(228, 37, 16, 0.4);
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 30px;
+    }
+
+    .navsiege{
+      background-color: rgba(88, 87, 87, 0.5);
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 30px;
+    }
+
+    .navzelda{
+      background-color: rgba(54, 225, 54, 0.4);
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 30px;
+    }
+
+    .fortcolor{
+      margin-top: 10px;
+      font-size: 600%;
+      font-family: Pixelify Sans;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      border-radius: 30px;
+      background-color: rgba(22, 54, 234, 0.4);
+    
+    }
+    
+    .minecolor{
+      margin-top: 10px;
+      font-size: 600%;
+      font-family: Pixelify Sans;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      border-radius: 30px;
+      background-color: rgba(22, 217, 54, 0.4);
+    
+    }
+
+    .redcolor{
+      margin-top: 10px;
+      font-size: 600%;
+      font-family: Pixelify Sans;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      border-radius: 30px;
+      background-color: rgba(228, 37, 16, 0.4);
+    
+    }
+
+
+    .homecolor{
+      margin-top: 10px;
+      font-size: 600%;
+      font-family: Pixelify Sans;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      border-radius: 30px;
+      background-color: rgba(22, 217, 184, 0.9);
+    
+    }
+
+    .siegecolor{
+      margin-top: 10px;
+      font-size: 600%;
+      font-family: Pixelify Sans;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      border-radius: 30px;
+      background-color: rgba(88, 87, 87, 0.5);
+    
+    }
+
+    .zeldacolor{
+      margin-top: 10px;
+      font-size: 600%;
+      font-family: Pixelify Sans;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      border-radius: 30px;
+      background-color: rgba(54, 225, 54, 0.4);
+    
+    }
+
+.minesection{
+background-color: rgba(22, 217, 54, 0.4) ;
+padding: 20px;
+border-radius: 15px;
+}
+
+.minearticle{
+  color:aliceblue;
+  background-color: rgba(7, 100, 23, 0.44) ;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.fortsection{
+  background-color: rgba(19, 41, 169, 0.4) ;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  }
+  
+  .fortarticle{
+    color:aliceblue;
+    background-color: rgba(19, 41, 169, 0.44) ;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+.redsection{
+  background-color: rgba(228, 37, 16, 0.4) ;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  }
+  
+  .redarticle{
+    color:aliceblue;
+    background-color: rgba(112, 12, 0, 0.4) ;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .zeldasection{
+    background-color: rgba(54, 225, 54, 0.4) ;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
+    
+    .zeldaarticle{
+      color:aliceblue;
+      background-color: rgba(54, 225, 54, 0.4) ;
+      padding: 15px;
+      margin-bottom: 10px;
+    }
+    
+    .siegesection{
+      background-color: rgba(123, 123, 123, 0.5) ;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      }
+      
+      .siegearticle{
+        color:aliceblue;
+        background-color: rgba(88, 87, 87, 0.5) ;
+        padding: 15px;
+        margin-bottom: 10px;
+      }
+
+      .siege-img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        object-fit: contain;
+      }
+
